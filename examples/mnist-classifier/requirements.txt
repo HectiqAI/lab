@@ -1,0 +1,4 @@
+pyhectiqlab
+torch
+torchvision
+tqdm
