@@ -21,7 +21,17 @@ python main.py
 
 ### Inspect your model
 
-Use a streamlit app to inspect your model. 
-1. Copy the content of [app.py](./app.py) and [requirements.txt](./requirements.txt) in the app files.
+Use a streamlit app to inspect your model. Create an app in your project (web application) and add the files.
+1. Copy the content of [app.py](./app.py) in the app files.
+2. Copy the requirements below in your `requirements.txt` of the app:
+```
+streamlit
+numpy
+matplotlib
+torch
+torchvision
+opencv-python-headless
+streamlit-drawable-canvas
+```
 
 A [public demo](https://lab.hectiq.ai/public/hectiq-ai/demo/mnist-model) is available.
